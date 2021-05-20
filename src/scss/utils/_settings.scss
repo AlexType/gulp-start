@@ -1,0 +1,43 @@
+@import "vars";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $font-family, sans-serif, serif;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $_mainColor;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.clear-list,
+ol.clear-list {
+    list-style: none;
+    padding: 0;
+}
