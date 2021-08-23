@@ -41,5 +41,9 @@
         "stylelint-scss": "^3.17.1",
         "webpack": "^4.43.0",
         "webpack-stream": "^5.2.1"
+    },
+    "dependencies": {
+        "bootstrap": "^5.1.0",
+        "lozad": "^1.16.0"
     }
 }
