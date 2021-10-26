@@ -1,0 +1,84 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://akebono-registry-525196003031.d.codeartifact.us-east-1.amazonaws.com/npm/akebono/bootstrap: Unauthenticated: request used expired credentials. Please renew your credentials.
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (events.js:375:28)
+      at Gunzip.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (events.js:481:28)
+      at Gunzip.emit (events.js:375:28)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+      "name": "gulp-2020",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+          "build": "gulp build",
+          "start": "gulp"
+      },
+      "author": "AlexType",
+      "license": "ISC",
+      "devDependencies": {
+          "@babel/core": "^7.7.2",
+          "@babel/preset-env": "^7.10.4",
+          "babel-loader": "^8.1.0",
+          "browser-sync": "^2.26.7",
+          "del": "^5.1.0",
+          "eslint": "^7.19.0",
+          "gulp": "^4.0.2",
+          "gulp-autoprefixer": "^7.0.1",
+          "gulp-babel": "^8.0.0",
+          "gulp-clean-css": "^4.2.0",
+          "gulp-cli": "^2.2.0",
+          "gulp-file-include": "^2.1.1",
+          "gulp-imagemin": "^7.1.0",
+          "gulp-notify": "^3.2.0",
+          "gulp-rename": "^1.4.0",
+          "gulp-rev": "^9.0.0",
+          "gulp-rev-delete-original": "^0.2.3",
+          "gulp-rev-rewrite": "^3.0.3",
+          "gulp-sass": "^4.0.2",
+          "gulp-sourcemaps": "^2.6.5",
+          "gulp-svg-sprite": "^1.5.0",
+          "gulp-tinypng-compress": "^1.2.5",
+          "gulp-uglify-es": "^2.0.0",
+          "gulp-webp": "^4.0.1",
+          "imagemin-jpeg-recompress": "^7.0.0",
+          "stylelint": "^13.3.2",
+          "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+          "stylelint-order": "^4.0.0",
+          "stylelint-scss": "^3.17.1",
+          "webpack": "^4.43.0",
+          "webpack-stream": "^5.2.1"
+      },
+      "dependencies": {
+          "bootstrap": "^5.1.0",
+          "lozad": "^1.16.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
